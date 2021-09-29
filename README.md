@@ -5,6 +5,29 @@ Can I Retire???
 **Date assigned:** Wednesday, September 28, 2021
 
 **Program due:** Wednesday, October 6, 2021, \[9:15AM Sect 02; 1:00PM
+Sect 01\]
+
+**Points:** 25
+
+**Goals:**
+
+1.  Understand how to construct and use a loop
+
+2.  More data validation
+
+**Retirement Questions**
+
+As soon as you start working, you should begin investing in a retirement
+plan such as a 401k or an IRA. The sooner you start investing; the
+sooner you can retire if you so desire. This program will help you
+decide what you should do!
+##CS150 Assignment 3
+
+Can I Retire???
+
+**Date assigned:** Wednesday, September 28, 2021
+
+**Program due:** Wednesday, October 6, 2021, \[9:15AM Sect 02; 1:00PM
 Sect 01\]\
 
 **Points:** 25
@@ -22,7 +45,7 @@ plan such as a 401k or an IRA. The sooner you start investing; the
 sooner you can retire if you so desire. This program will help you
 decide what you should do!
 
--   If I gave each of you \$1,000 to invest, how many would know what to
+-   If I gave each of you $1,000 to invest, how many would know what to
     do?
 
 -   How much money do you think you need to save to comfortably retire?
@@ -66,30 +89,22 @@ below.
 
 Your program will output a report as follows:
 
-﻿\*\*\* How Long Will My Retirement Last? \*\*\*
+<pre>
+*** How Long Will My Retirement Last? ***
 
-Enter Retirement Account Value: \$ **64548.00**
+Enter Retirement Account Value: $ <b>64548.00</b>
+Enter Amount Withdrawn Yearly: $ <b>12000.00</b>
+Enter Rate of Return: % <b>4.0</b>
 
-Enter Amount Withdrawn Yearly: \$ **12000.00**
-
-Enter Rate of Return: % **4.0**
-
-Beginning Amount Interest Ending Year
-
-Balance Withdrawn Earned Balance
-
-\-\-\-\-\-\-\-\-\-\-\-- \-\-\-\-\-\-\-\-\-- \-\-\-\-\-\-\-\-\--
-\-\-\-\-\-\-\-\-\-\-\-- \-\-\--
-
-\$ 64548.00 \$ 12000.00 \$ 2101.92 \$ 54649.92 1
-
-\$ 54649.92 \$ 12000.00 \$ 1706.00 \$ 44355.92 2
-
-\$ 44355.92 \$ 12000.00 \$ 1294.24 \$ 33650.15 3
-
-\$ 33650.15 \$ 12000.00 \$ 866.01 \$ 22516.16 4
-
-\$ 22516.16 \$ 12000.00 \$ 420.65 \$ 10936.81 5
+   Beginning         Amount       Interest           Ending     Year
+     Balance      Withdrawn         Earned          Balance
+------------     ----------     ----------     ------------     ----
+$   64548.00     $ 12000.00     $  2101.92     $   54649.92        1
+$   54649.92     $ 12000.00     $  1706.00     $   44355.92        2
+$   44355.92     $ 12000.00     $  1294.24     $   33650.15        3
+$   33650.15     $ 12000.00     $   866.01     $   22516.16        4
+$   22516.16     $ 12000.00     $   420.65     $   10936.81        5
+</pre>
 
 You are to make sure that the user enters a value greater than 0.0 for
 the Retirement Account Value, the Amount Withdrawn Yearly, and the Rate
@@ -97,36 +112,25 @@ of Return. Further, make sure that the user does not try and withdraw
 more money than is in the account. Here are some sample invalidation
 examples. These examples are not exhaustive.
 
-﻿\*\*\* How Long Will My Retirement Last? \*\*\*
+<pre>
+*** How Long Will My Retirement Last? ***
 
-Enter Retirement Account Value: \$ **-10**
+Enter Retirement Account Value: $ <b>-10</b>
+Enter Retirement Account Value: $ <b>64548.00</b>
+Enter Amount Withdrawn Yearly: $ <b>100000.00</b>
+Enter Amount Withdrawn Yearly: $ <b>12000.00</b>
+Enter Rate of Return: % <b>-1.5</b>
+Enter Rate of Return: % <b>4</b>
 
-Enter Retirement Account Value: \$ **64548.00**
-
-Enter Amount Withdrawn Yearly: \$ **100000.00**
-
-Enter Amount Withdrawn Yearly: \$ **12000.00**
-
-Enter Rate of Return: % **-1.5**
-
-Enter Rate of Return: % **4**
-
-Beginning Amount Interest Ending Year
-
-Balance Withdrawn Earned Balance
-
-\-\-\-\-\-\-\-\-\-\-\-- \-\-\-\-\-\-\-\-\-- \-\-\-\-\-\-\-\-\--
-\-\-\-\-\-\-\-\-\-\-\-- \-\-\--
-
-\$ 64548.00 \$ 12000.00 \$ 2101.92 \$ 54649.92 1
-
-\$ 54649.92 \$ 12000.00 \$ 1706.00 \$ 44355.92 2
-
-\$ 44355.92 \$ 12000.00 \$ 1294.24 \$ 33650.15 3
-
-\$ 33650.15 \$ 12000.00 \$ 866.01 \$ 22516.16 4
-
-\$ 22516.16 \$ 12000.00 \$ 420.65 \$ 10936.81 5
+   Beginning         Amount       Interest           Ending     Year
+     Balance      Withdrawn         Earned          Balance
+------------     ----------     ----------     ------------     ----
+$   64548.00     $ 12000.00     $  2101.92     $   54649.92        1
+$   54649.92     $ 12000.00     $  1706.00     $   44355.92        2
+$   44355.92     $ 12000.00     $  1294.24     $   33650.15        3
+$   33650.15     $ 12000.00     $   866.01     $   22516.16        4
+$   22516.16     $ 12000.00     $   420.65     $   10936.81        5
+</pre>
 
 NOTE: It is possible that if you earn more interest on your money than
 you withdraw each year, your program will never end. I will not test
