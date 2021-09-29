@@ -1,4 +1,4 @@
-CS150 Assignment 3
+##CS150 Assignment 3
 
 Can I Retire???
 
@@ -6,6 +6,7 @@ Can I Retire???
 
 **Program due:** Wednesday, October 6, 2021, \[9:15AM Sect 02; 1:00PM
 Sect 01\]\
+
 **Points:** 25
 
 **Goals:**
@@ -30,11 +31,6 @@ decide what you should do!
 
 -   How much will you pay for medical expenses in retirement?
 
-Tell me anything you can about the following graph of the S&P500 index
-from finance.yahoo.com :
-
-![](media/image1.png){width="6.0in" height="3.127083333333333in"}
-
 When you get close to retirement, you will have saved about all of the
 money you can. At that point, you will need to start withdrawing money
 from your retirement to live on. This money will need to last you the
@@ -44,21 +40,17 @@ years. Will you have enough money to do so comfortably?
 Fun Facts
 (https://www.personalcapital.com/blog/retirement-planning/average-401k-balance-age/)
 
-﻿Vanguard Data of Average 401k by Age (2021)
+<pre>
+Vanguard Data of Average 401k by Age (2021)
 
-AGE AVERAGE 401K BALANCE MEDIAN 401K BALANCE
-
-22 - 25 \$5,419 \$1,817
-
-25 - 34 \$26,839 \$10,402
-
-35 - 44 \$72,578 \$26,188
-
-45 - 54 \$135,777 \$46,363
-
-55 - 64 \$197,322 \$69,097
-
-65 + \$216,720 \$64,548
+AGE         AVERAGE 401K BALANCE    MEDIAN 401K BALANCE
+22 - 25     $5,419                  $1,817
+25 - 34     $26,839                 $10,402
+35 - 44     $72,578                 $26,188
+45 - 54     $135,777                $46,363
+55 - 64     $197,322                $69,097
+65 +        $216,720                $64,548
+</pre>
 
 **Here is the problem that you are to solve**
 
