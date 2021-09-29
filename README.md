@@ -1,4 +1,4 @@
-##CS150 Assignment 3
+## CS150 Assignment 3
 
 Can I Retire???
 
@@ -6,29 +6,6 @@ Can I Retire???
 
 **Program due:** Wednesday, October 6, 2021, \[9:15AM Sect 02; 1:00PM
 Sect 01\]
-
-**Points:** 25
-
-**Goals:**
-
-1.  Understand how to construct and use a loop
-
-2.  More data validation
-
-**Retirement Questions**
-
-As soon as you start working, you should begin investing in a retirement
-plan such as a 401k or an IRA. The sooner you start investing; the
-sooner you can retire if you so desire. This program will help you
-decide what you should do!
-##CS150 Assignment 3
-
-Can I Retire???
-
-**Date assigned:** Wednesday, September 28, 2021
-
-**Program due:** Wednesday, October 6, 2021, \[9:15AM Sect 02; 1:00PM
-Sect 01\]\
 
 **Points:** 25
 
@@ -96,8 +73,8 @@ Enter Retirement Account Value: $ <b>64548.00</b>
 Enter Amount Withdrawn Yearly: $ <b>12000.00</b>
 Enter Rate of Return: % <b>4.0</b>
 
-   Beginning         Amount       Interest           Ending     Year
-     Balance      Withdrawn         Earned          Balance
+   Beginning         Amount       Earnings           Ending     Year
+     Balance      Withdrawn                         Balance
 ------------     ----------     ----------     ------------     ----
 $   64548.00     $ 12000.00     $  2101.92     $   54649.92        1
 $   54649.92     $ 12000.00     $  1706.00     $   44355.92        2
@@ -122,8 +99,8 @@ Enter Amount Withdrawn Yearly: $ <b>12000.00</b>
 Enter Rate of Return: % <b>-1.5</b>
 Enter Rate of Return: % <b>4</b>
 
-   Beginning         Amount       Interest           Ending     Year
-     Balance      Withdrawn         Earned          Balance
+   Beginning         Amount       Earnings           Ending     Year
+     Balance      Withdrawn                         Balance
 ------------     ----------     ----------     ------------     ----
 $   64548.00     $ 12000.00     $  2101.92     $   54649.92        1
 $   54649.92     $ 12000.00     $  1706.00     $   44355.92        2
@@ -169,4 +146,4 @@ very doable!!!!
         considered late.
 
 > **Good luck! And remember, if you have any problems, come and see
-> straight away. **
+> straight away.
